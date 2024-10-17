@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    color: #195362;
+    background-color: #f4f4f4;
+}
+
+
+.about-section {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 50px;
+background-color: white;
+}
+
+.about-container {
+max-width: 500px;
+}
+
+.about-container h1 {
+font-size: 48px;
+color: #7d4e57;
+margin-bottom: 20px;
+}
+
+.about-container p {
+font-size: 18px;
+color: #333;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+.explore-btn {
+background-color: #c09494;
+color: white;
+padding: 10px 30px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 25px;
+}
+
+.explore-btn:hover {
+background-color: #a06c6c;
+}
+
+.about-image img {
+width: 600px;
+height: 590px;
+border-radius: 10px;
+}
+.brand {
+color: white;
+font-size: 24px;
+font-weight: bold;
+}
+
+.mission-section {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 80px;
+background-color: #FAF0EE;
+}
+
+.mission-image {
+flex: 1;
+padding-right: 30px;
+}
+
+.mission-image img {
+width: 85%;
+height: 7%;
+border-radius: 15px;
+}
+
+.mission-content {
+flex: 1;
+text-align: left;
+}
+
+.mission-content h1 {
+font-size: 48px;
+color: #7d4e57;
+margin-bottom: 20px;
+}
+
+.mission-content p {
+
+font-size: 18px;
+color: #333;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: center; /* Centrer toutes les cartes */
+    flex-wrap: wrap;
+    margin: 0 100px;
+    gap: 20px; /* Espacement entre les cartes */
+}
+
+.card {
+    width: 300px; /* Largeur fixe des cartes */
+    border: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 2px solid #c27979;
+    border-radius: 15px;
+}
+
+/* Conteneur de l'image pour centrer l'image à l'intérieur */
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centrer l'image horizontalement */
+    align-items: center; /* Centrer l'image verticalement */
+    height: 250px; /* Fixer la hauteur du conteneur d'image */
+}
+
+.product-image {
+    max-width: 100%; /* Limite l'image à la largeur du conteneur */
+    max-height: 100%; /* Limite l'image à la hauteur du conteneur */
+    object-fit: cover; /* Garde l'image proportionnelle tout en remplissant l'espace */
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7); /* Overlay blanc avec transparence */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Bouton Quick Shop */
+.quick-shop-btn {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Effet hover sur le conteneur de l'image */
+.image-container:hover .overlay {
+    opacity: 1; /* Rend l'overlay visible au survol */
+}
+
+/* Style des informations du produit */
+.product-info {
+    margin-top: 15px;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #888;
+}
+
+.product-rating {
+    font-size: 14px;
+    color: #ffb400;
+}
+
+
+#contact {
+ display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px;
+background-image: url('images/pixelcut-export.jpeg');
+}
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    flex: 1;
+    width: 500px;
+    background-color: rgba(250, 240, 238,1);
+
+    
+}
+
+.contact-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-image img {
+    width: 600px;
+    height: 539px;
+    border-radius: 10px;
+}
+
+#contact h2 {
+    
+    text-align: left;
+    margin-bottom: 20px;
+    color: #AB6A70;
+}
+
+#contact form {
+    max-width: 100%;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #AB6A70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

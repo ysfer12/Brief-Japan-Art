@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    color: #195362;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #9e6764;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+
+}
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+nav .logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+nav ul li a{
+    
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.signup {
+    background-color: white;
+    color: #9e6764;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+
+
+
+.navbar ul li a:hover {
+color: #0288D1; 
+background-color: #81D4FA; 
+border-radius: 5px;
+}
+
+.navbar ul li::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: -3px;
+width: 100%;
+height: 3px;
+background-color: #81D4FA; 
+transform: scaleX(0);
+transition: transform 0.3s ease;
+}
+
+.navbar ul li:hover::after {
+transform: scaleX(1);
+}
+
+.hero {
+    background-image: url(../images/Home/heroSectionImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    } 
+    
+    .hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    border-radius: 10px;
+    }
+    
+    .hero h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    word-spacing: 5px;
+    }
+    
+    .hero p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    word-spacing: 5px;
+    }
+    
+    .btn {
+    background-color: #AB6A70;
+    color: white;
+    padding: 0.75em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    }
+    
+    .btn:hover {
+    background-color: #FAF0EE;
+    color: black;
+    }
+    
+    
+    
+    /* Start Gallery */
+    
+    section#collection {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff; 
+    }
+    
+    #collection h2 {
+    color: #AB6A70;
+    font-size: 50px;
+    margin-bottom: 10px;
+    }
+    
+    #collection p {
+    font-size: 19px;
+    color: #AB6A70;
+    margin-bottom: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 6px;
+    line-height: 30px;
+    }
+    
+    .art-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    }
+    
+    .art-item {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .art-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    }
+    
+    .art-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    #show-more {
+    margin-top: 30px;
+    }
+    
+    #show-more button {
+    background-color: #AB6A70;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    #show-more button:hover {
+    background-color: #AB6A70;
+    }
+    /* Footer */
+footer {
+    background-color:#AB6A70 ;
+    color: rgb(0, 0, 0);
+    padding: 40px 0;
+    }
+    
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    
+    }
+    
+    .footer-section {
+    flex: 1;
+    padding: 20px;
+    }
+    
+    .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    }
+    
+    .footer-section p {
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.6;
+    }
+    footer-section .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    }
+    
+    .footer-section .social-icons a img {
+    width: 30px;
+    height: 30px;
+    }
+    
+    .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    }
+    
+    footer p {
+    margin: 0;
+    font-size: 0.9em;
+    }
