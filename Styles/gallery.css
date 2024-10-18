@@ -110,10 +110,10 @@ section#collection {
 
 .cards {
     display: flex;
-    justify-content: center; /* Centrer toutes les cartes */
+    justify-content: center; 
     flex-wrap: wrap;
     margin: 0 100px;
-    gap: 20px; /* Espacement entre les cartes */
+    gap: 20px; 
 }
 .card:hover{
     transform: translateY(-10px);
@@ -136,15 +136,15 @@ section#collection {
 .image-container {
     position: relative;
     display: flex;
-    justify-content: center; /* Centrer l'image horizontalement */
-    align-items: center; /* Centrer l'image verticalement */
-    height: 250px; /* Fixer la hauteur du conteneur d'image */
+    justify-content: center; 
+    align-items: center; 
+    height: 250px; 
 }
 
 .product-image {
-    max-width: 100%; /* Limite l'image à la largeur du conteneur */
-    max-height: 100%; /* Limite l'image à la hauteur du conteneur */
-    object-fit: cover; /* Garde l'image proportionnelle tout en remplissant l'espace */
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover; 
     display: block;
 }
 
@@ -154,8 +154,7 @@ section#collection {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.7); /* Overlay blanc avec transparence */
-    display: flex;
+    background: rgba(255, 255, 255, 0.7);
     align-items: center;
     justify-content: center;
     opacity: 0;
