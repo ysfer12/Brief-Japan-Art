@@ -9,16 +9,9 @@ body {
     color: #195362;
     background-color: #f4f4f4;
 }
-
-
-
-
-
-
-
 .cards {
     display: flex;
-    justify-content: center; /* Centrer toutes les cartes */
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 100px;
     gap: 20px; /* Espacement entre les cartes */

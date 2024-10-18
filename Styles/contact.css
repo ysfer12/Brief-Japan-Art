@@ -86,7 +86,7 @@ transition: transform 0.3s ease;
 transform: scaleX(1);
 }
 
-.about-section {
+.contact-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,11 +94,11 @@ transform: scaleX(1);
     background-color: white;
     }
     
-    .about-container {
+    .contact-container {
     max-width: 500px;
     }
     
-    .about-container h1 {
+    .contact-container h1 {
     font-size: 48px;
     color: #7d4e57;
     margin-bottom: 20px;
@@ -126,27 +126,16 @@ transform: scaleX(1);
         word-spacing: 6px;
         line-height: 30px;
         }
-    .about-container p {
+    .contact-container p {
     font-size: 18px;
     color: #333;
     line-height: 1.6;
     margin-bottom: 30px;
     }
     
-    .explore-btn {
-    background-color: #c09494;
-    color: white;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    }
     
-    .explore-btn:hover {
-    background-color: #a06c6c;
-    }
     
-    .about-image img {
+    .contact-image-section img {
     width: 600px;
     height: 590px;
     border-radius: 10px;

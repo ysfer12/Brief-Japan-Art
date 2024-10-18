@@ -103,7 +103,7 @@ transform: scaleX(1);
     color: #7d4e57;
     margin-bottom: 20px;
     }
-    section#collection {
+section#collection {
         padding: 40px;
         text-align: center;
         background-color: #AB6A70; 
@@ -269,7 +269,7 @@ transform: scaleX(1);
         }
         
         .left .highlight {
-            color: #AB6A70; /* Blue color for highlighted text */
+            color: #AB6A70;
         }
         
         .left p {
